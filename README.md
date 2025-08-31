@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Iaze Mazzoni.
+- Matricula: 00900363
+- Proposta de projeto escolhida: 5. Temas e Conteúdos Associados
+- Breve descrição sobre seu projeto: Site de entretenimento e estudos. Possibilitando assistir videos aulas e outros tipos de conteudo.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](public/Wireframe.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print home-page](public/home-page.png)
