@@ -12,8 +12,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 - Nome: Matheus Iaze Mazzoni.
 - Matricula: 00900363
-- Proposta de projeto escolhida: 5. Temas e Conteúdos Associados
-- Breve descrição sobre seu projeto: Site de entretenimento e estudos. Possibilitando assistir videos aulas e outros tipos de conteudo.
+- Proposta de projeto escolhida: 4. Coleções e Itens
+- Breve descrição sobre seu projeto: Site de entretenimento e estudos. Possibilitando apreciar obras de antigos artistas e estudar as mesmas.
 
 
 ## Print do(s) wireframe(s) criado
