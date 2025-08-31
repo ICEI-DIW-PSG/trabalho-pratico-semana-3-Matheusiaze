@@ -1,3 +1,4 @@
+/* RESET E FONTE */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body {
   height: 100vh;
 }
 
-/*largura cabecalho*/
+/* CABEÇALHO */
 header.header {
   background: #222;
   color: #fff;
@@ -26,7 +27,6 @@ header.header .formulario {
   gap: 25px;
 }
 
-/*largura cabecalho*/
 header.header .formulario input {
   padding: 8px;
   border-radius: 50px;
@@ -34,22 +34,13 @@ header.header .formulario input {
   width: 1000px;
 }
 
-header.header .formulario button {
-  padding: 8px 12px;
-  background: #ff5e00;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
+/* CONTEÚDO PRINCIPAL */
 main {
   display: flex;
   flex: 1;
 }
 
-/*barra lateral*/
+/* MENU LATERAL */
 nav.menu {
   width: 220px;
   background: #f4f4f4;
@@ -59,7 +50,7 @@ nav.menu {
   flex-direction: column;
   gap: 15px;
 }
-/*barra lateral*/
+
 nav.menu .perfil {
   display: flex;
   flex-direction: column;
@@ -67,13 +58,13 @@ nav.menu .perfil {
   gap: 5px;
   margin-bottom: 30px;
 }
-/*foto do perfil*/
+
 nav.menu .perfil img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-/*config botões barra lateral*/
+
 nav.menu button {
   padding: 10px;
   border: none;
@@ -88,62 +79,72 @@ nav.menu button:hover {
   background: #bbb;
 }
 
-/*disposição da grade de videos e recomendacao na*/
+/* SEÇÃO DE CONTEÚDO */
 section.conteudo {
   flex: 1;
   padding: 20px;
   overflow-y: auto;
 }
 
-/*grade de videos*/
+/* DESTAQUE - MONALISA */
 .destaque {
   background: #eee;
   border-radius: 15px;
-  margin-bottom: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto 60px;
   padding: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*grade de videos*/
-.destaque img {
+.imagem-destaque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-destaque img {
   width: 70%;
-  max-height: 200px;
+  max-height: 500px;
   border-radius: 15px;
   object-fit: cover;
 }
 
-/*grade de videos*/
+.imagem-destaque h3 {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* GRADE DE VÍDEOS */
 .grid-videos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
-/*config grade de videos*/
 article.video {
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
-/*imagem da grade de videos*/
 article.video img {
-  width: 100%;
-  height: 140px;
+  width: 80%;
+  height: 240px;
   object-fit: cover;
 }
 
-/*escrita da grade de videos*/
 article.video h3 {
-  padding: 10px;
+  padding: 20px;
   font-size: 16px;
 }
 
-/*rodape*/
+/* RODAPÉ */
 footer.footer {
   background: #222;
   color: white;
